@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Host/">
+    <Project Path="src/Host/ApplicationCatalog.Web/ApplicationCatalog.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Applications/">
+    <Project Path="src/Modules/Applications/ApplicationCatalog.Modules.Applications/ApplicationCatalog.Modules.Applications.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/DataLineage/">
+    <Project Path="src/Modules/DataLineage/ApplicationCatalog.Modules.DataLineage/ApplicationCatalog.Modules.DataLineage.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Health/">
+    <Project Path="src/Modules/Health/ApplicationCatalog.Modules.Health/ApplicationCatalog.Modules.Health.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ApplicationCatalog.Modules.Applications.Tests/ApplicationCatalog.Modules.Applications.Tests.csproj" />
+  </Folder>
+</Solution>
