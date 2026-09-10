@@ -1,0 +1,25 @@
+﻿@model IReadOnlyList<ApplicationSummary>
+
+<h1>Applications</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Business Owner</th>
+            <th>IT Owner</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var application in Model)
+        {
+            <tr>
+                <td>@application.Name</td>
+                <td>@application.Status</td>
+                <td>@application.BusinessOwner</td>
+                <td>@application.ItOwner</td>
+            </tr>
+        }
+    </tbody>
+</table>
